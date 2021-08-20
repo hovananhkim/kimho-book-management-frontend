@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Layout from 'antd/lib/layout/layout';
+import { Container } from 'react-bootstrap';
+import Content from './components/Content';
+import Header from './components/header/Header';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Layout>
+            <Header />
+            <Container style={{'margin-top': '15px'}}>
+              <Content />  
+            </Container>        
+        </Layout>    
     </div>
   );
 }

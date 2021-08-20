@@ -1,0 +1,13 @@
+.background {
+    background-color: #F5F1EA;
+}
+.siteHeader__logo {
+    display: inline-block;
+    height: 50px;
+    order: initial;
+    background: url(https://s.gr-assets.com/assets/layout/header/goodreads_logo.svg) no-repeat;
+    background-position: center;
+    background-size: 140px 30px;
+    margin: 0 16px 0 0;
+    width: 140px;
+}
